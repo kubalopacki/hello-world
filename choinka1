@@ -1,0 +1,16 @@
+<?php
+$heightc = 7;
+$height = 7;
+$poziom = 0;
+
+for ($height = 7; $height > 0; $height--) {
+    echo str_repeat(" ", $height - 1);
+    echo str_repeat("*", $poziom * 2 + 1);
+    echo "\n";
+    $poziom++;
+}
+echo str_repeat(" ", $heightc - 1);
+echo "*";
+
+
+?>
